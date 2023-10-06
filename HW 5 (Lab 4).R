@@ -69,13 +69,9 @@ lines(yhat ~ AGE, data = to_be_predicted2)
 #Create some more, for different X-values.
 
 #Carefully explain the hypothesis tests of each coefficient and all of the coefficients jointly. For each coefficient, explain the t-stat, p-value, and confidence interval.
-
 #You might show how heteroskedasticity-consistent standard errors, as with *coeftest(model1,vcovHC)*, would affect each of these.
-
 #Try both *lm(INCWAGE ~ ...* and *lm(log(INCWAGE) ~ ...* Compare mean of predicted values of first version with exp(x) mean of predicted values of second version. Discuss. 
-                                    
 #Try some more linear regressions. Explain if there is a plausible causal link from X variables to Y and not the reverse. Explain what additional restrictions to put on the dataset (eg just prime age, just females, just college degree, whatever). 
-                                    
 #Explain your results, giving details about the estimation and providing any relevant graphics. What are the changes from what you'd previously found (with k-nn or averages) and why might this be so? How do changes in specification (e.g. logs) 
 #change the estimated coefficients? What are some relevant predicted values? Do those seem sensible? What additional information would be useful? Impress me
 
